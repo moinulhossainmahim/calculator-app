@@ -5,13 +5,6 @@ const secondaryOperandDisplay = document.querySelector(
 	'[data-secondary-operand]'
 )
 const operationDisplay = document.querySelector('[data-operation]')
-// Actions
-// 1. Click clear button
-// 2. click delete button
-// 3. click an operation
-// 4. click a number
-// 5. click equals
-// 6. click the period buttons
 
 const calculator = new Calculator(
 	primaryOperandDisplay,
